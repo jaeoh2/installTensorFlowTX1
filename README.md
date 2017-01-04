@@ -17,7 +17,14 @@ Installs Nvidia-driver and other dependencies needed. Also builds:
 ##### Re-install older version of gcc/g++
 Change version gcc-4.8/g++-4.8
 ##### Install CUDA 8.0
-* https://developer.nvidia.com/cuda-toolkit
+* https://developer.nvidia.com/cuda-downloads
+* Select Linux-x86_64-Ubuntu-16.04-deb(local)
+
+$ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb
+
+$ sudo apt-get update
+
+$ sudo apt-get install cuda
 
 ### cloneTensorFlow.sh
 Git clones r0.12 from the TensorFlow repository
