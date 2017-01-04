@@ -49,7 +49,7 @@ Builds TensorFlow.
 Once TensorFlow has finished building, this script may be used to create a 'wheel' file, a package for installing with Python. The wheel file will be in the $HOME directory, tensorflow-0.11.0-py2-none-any.whl
 
 ### Install wheel file
-$ pip install $HOME/tensorflow-0.12.0-py2-none-any.whl
+$ sudo pip install --upgrade /tmp/tensorflow_pkg/tensorflow-0.12.0-*.whl
 
 ### Test
 Run a simple TensorFlow example for the initial sanity check:
