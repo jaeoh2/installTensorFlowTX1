@@ -16,6 +16,8 @@ TensorFlow should be built in the following order:
 Installs Nvidia-driver and other dependencies needed. Also builds:
 ##### Re-install older version of gcc/g++
 Change version gcc-4.8/g++-4.8
+##### Install CUDA 8.0
+* https://developer.nvidia.com/cuda-toolkit
 
 ### cloneTensorFlow.sh
 Git clones r0.12 from the TensorFlow repository
