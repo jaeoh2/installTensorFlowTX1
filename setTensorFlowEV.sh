@@ -1,5 +1,5 @@
 #!/bin/bash
-# NVIDIA Jetson TX1
+# NVIDIA Gtx 1070
 # TensorFlow Installation
 # Build TensorFlow
 
@@ -27,5 +27,5 @@ TF_CUDNN_VERSION=5.1.5
 default_cudnn_path=/usr/lib/aarch64-linux-gnu/
 CUDNN_INSTALL_PATH=$default_cudnn_path
 # CUDA compute capability
-TF_CUDA_COMPUTE_CAPABILITIES=5.3
+TF_CUDA_COMPUTE_CAPABILITIES=5.2,6.1
 source ./configure
