@@ -5,8 +5,8 @@
 Install TensorFlow r0.12 on NVIDIA GTX 1070, Ubuntu 16.04
 
 * Ubuntu 16.04 64-bit
-* CUDA 8.0
-* cuDNN 5.1
+* [CUDA 8.0] (https://github.com/jaeoh2/installTensorFlowUbuntu16.04/blob/master/README.md#install-cuda-80)
+* [cuDNN 5.1] (https://github.com/jaeoh2/installTensorFlowUbuntu16.04/blob/master/README.md#install-cudnn)
 * Nvidia GTX 1070
 
 ## Installation
