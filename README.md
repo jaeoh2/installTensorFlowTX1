@@ -9,31 +9,30 @@ Install TensorFlow r0.12 on NVIDIA GTX 1070, Ubuntu 16.04
 * cuDNN 5.1
 * Nvidia GTX 1070
 
-### Installation
+## Installation
 TensorFlow should be built in the following order:
 
-#### installPrerequisites.sh
+### installPrerequisites.sh
 Installs Nvidia-driver and other dependencies needed. Also builds:
-
 ##### Re-install older version of gcc/g++
 Change version gcc-4.8/g++-4.8
 
-#### cloneTensorFlow.sh
+### cloneTensorFlow.sh
 Git clones r0.11 from the TensorFlow repository and patches the source code for aarch64
 
-#### setTensorFlowEV.sh
+### setTensorFlowEV.sh
 Sets up the TensorFlow environment variables. This script will ask for the default python library path.
 
-#### buildTensorFlow.sh
+### buildTensorFlow.sh
 Builds TensorFlow.
 
-#### packageTensorFlow.sh
+### packageTensorFlow.sh
 Once TensorFlow has finished building, this script may be used to create a 'wheel' file, a package for installing with Python. The wheel file will be in the $HOME directory, tensorflow-0.11.0-py2-none-any.whl
 
-#### Install wheel file
+### Install wheel file
 $ pip install $HOME/tensorflow-0.11.0-py2-none-any.whl
 
-#### Test
+### Test
 Run a simple TensorFlow example for the initial sanity check:
 
 $ cd $HOME/tensorflow
