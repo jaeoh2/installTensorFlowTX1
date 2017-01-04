@@ -18,7 +18,7 @@ Installs Nvidia-driver and other dependencies needed. Also builds:
 Change version gcc-4.8/g++-4.8
 
 ### cloneTensorFlow.sh
-Git clones r0.11 from the TensorFlow repository and patches the source code for aarch64
+Git clones r0.12 from the TensorFlow repository
 
 ### setTensorFlowEV.sh
 Sets up the TensorFlow environment variables. This script will ask for the default python library path.
@@ -30,7 +30,7 @@ Builds TensorFlow.
 Once TensorFlow has finished building, this script may be used to create a 'wheel' file, a package for installing with Python. The wheel file will be in the $HOME directory, tensorflow-0.11.0-py2-none-any.whl
 
 ### Install wheel file
-$ pip install $HOME/tensorflow-0.11.0-py2-none-any.whl
+$ pip install $HOME/tensorflow-0.12.0-py2-none-any.whl
 
 ### Test
 Run a simple TensorFlow example for the initial sanity check:
