@@ -26,6 +26,16 @@ $ sudo apt-get update
 
 $ sudo apt-get install cuda
 
+#### Install cuDNN
+* https://developer.nvidia.com/cudnn
+* Download cuDNN v5.1 Library for CUDA8.0/ Linux
+
+$ sudo tar -xvf cudnn-8.0-linux-x64-v5.1.tgz
+
+$ sudo cp -r cuda/* /usr/local/cuda/
+
+$ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+
 ### cloneTensorFlow.sh
 Git clones r0.12 from the TensorFlow repository
 
