@@ -5,5 +5,6 @@
 ./scripts/installDependencies.sh
 # Re-install older version of gcc/g++
 ./scripts/reInstallGcc.sh
-
+# Install Bazel build
+./scripts/buildBazel.sh
 
