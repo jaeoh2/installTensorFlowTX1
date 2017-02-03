@@ -24,7 +24,7 @@ default_cuda_path=/usr/local/cuda
 CUDA_TOOLKIT_PATH=$default_cuda_path
 # cuDNN
 TF_CUDNN_VERSION=5.1.5
-default_cudnn_path=/usr/lib/aarch64-linux-gnu/
+default_cudnn_path=/usr/local/cuda
 CUDNN_INSTALL_PATH=$default_cudnn_path
 # CUDA compute capability
 TF_CUDA_COMPUTE_CAPABILITIES=5.2,6.1
