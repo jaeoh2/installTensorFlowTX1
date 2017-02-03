@@ -58,5 +58,5 @@ $ cd $HOME/tensorflow
 
 $ time python tensorflow/models/image/mnist/convolutional.py 
 
-$ python -c 'import tensorflow as tf; print(tf.__version__)'
+$ python -c 'import tensorflow as tf; print(tf.\_\_version\_\_)'
 
