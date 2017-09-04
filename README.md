@@ -16,25 +16,8 @@ TensorFlow should be built in the following order:
 Installs Nvidia-driver and other dependencies needed. Also builds:
 ##### Re-install older version of gcc/g++
 Change version gcc-4.8/g++-4.8
-##### Install CUDA 8.0
-* https://developer.nvidia.com/cuda-downloads
-* Select Linux-x86_64-Ubuntu-16.04-deb(local)
-
-$ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb
-
-$ sudo apt-get update
-
-$ sudo apt-get install cuda
-
-#### Install cuDNN
-* https://developer.nvidia.com/cudnn
-* Download cuDNN v5.1 Library for CUDA8.0/ Linux
-
-$ sudo tar -xvf cudnn-8.0-linux-x64-v5.1.tgz
-
-$ sudo cp -r cuda/* /usr/local/cuda/
-
-$ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+##### Install CUDA 8.0 & cuDNN
+Run installCudaToolKit.sh
 
 ### cloneTensorFlow.sh
 Git clones r0.12 from the TensorFlow repository
