@@ -17,7 +17,7 @@ Installs Nvidia-driver and other dependencies needed. Also builds:
 ##### Re-install older version of gcc/g++
 Change version gcc-4.8/g++-4.8
 ##### Install CUDA 8.0 & cuDNN
-Run installCudaToolKit.sh
+Install CUDA Toolkit v8.0 and cuDNN v6.0 on Ubuntu 16.04
 
 ### cloneTensorFlow.sh
 Git clones r0.12 from the TensorFlow repository
