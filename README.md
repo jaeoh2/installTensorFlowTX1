@@ -25,6 +25,11 @@ $ sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 $ sudo apt-get update
 $ sudo apt-get install cuda
 ```
+Install cuDNN 7 with cuda9.0
+```bash
+$ wget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/libcudnn7_7.1.1.5-1+cuda9.0_amd64.deb
+$ sudo dpkg -i libcudnn7_7.1.1.5-1+cuda9.0_amd64.deb
+```
 Install CUDA Toolkit v8.0
 ```bash
 $ wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
